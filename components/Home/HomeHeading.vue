@@ -2,7 +2,7 @@
   <!-- Main Name -->
   <div class="flex flex-col text-white mx-auto w-[50%] text-center space-y-4">
     <!-- Name -->
-    <div class="text-9xl font-extrabold tracking-wider text-pink-600">
+    <div class="text-9xl font-extrabold tracking-wider text-primary-pink">
       KRISH
     </div>
 

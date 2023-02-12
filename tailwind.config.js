@@ -20,6 +20,9 @@ module.exports = {
         "dark-300": "#1E293B",
         "dark-200": "#0F172A",
         "dark-100": "#0d1117",
+
+        // custom color
+        "primary-pink": "#DB2777",
       },
       fontSize: {
         "10xl": "10rem",

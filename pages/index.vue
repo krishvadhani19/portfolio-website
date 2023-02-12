@@ -9,8 +9,8 @@
 </template>
 
 <script>
-import HomePage from "../components/Home/home.vue";
-import FieldPage from "../components/Fields/Fields.vue";
+import HomePage from "~/components/Home/home.vue";
+import FieldPage from "~/components/Fields/Fields.vue";
 
 export default {
   name: "IndexPage",
@@ -19,6 +19,7 @@ export default {
   },
   components: {
     HomePage,
+    FieldPage,
   },
 };
 </script>
