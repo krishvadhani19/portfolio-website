@@ -1,10 +1,10 @@
 <template>
-  <div class="bg-dark-100 min-h-screen p-3 h-screen">
+  <div class="bg-dark-100 p-3 min-h-screen">
     <!-- Navbar -->
     <Navbar />
 
     <!-- Home Heading -->
-    <div class="mt-44">
+    <div class="mt-44 mb-28">
       <HomeHeading />
     </div>
   </div>
