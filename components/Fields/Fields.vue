@@ -5,7 +5,7 @@
     <div class="flex lg:flex-row flex-col space-x-10">
       <!-- Frontend Development -->
       <div
-        class="bg-primary-pink w-[33%] h-full rounded-lg px-5 py-10 space-y-5"
+        class="bg-gradient-to-r from-pink-500 to-blue-500 w-[33%] h-full rounded-lg px-5 py-10 space-y-5"
       >
         <div class="w-[20%] mx-auto">
           <GithubIcon size="75" color="#000000" class="w-full mx-auto" />

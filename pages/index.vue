@@ -12,7 +12,10 @@
     <ProjectPage />
 
     <!-- About -->
-    <About />
+    <AboutPage />
+
+    <!-- Contact -->
+    <ContactPage />
   </div>
 </template>
 
@@ -21,6 +24,7 @@ import HomePage from "~/components/Home/Home.vue";
 import FieldPage from "~/components/Fields/Fields.vue";
 import ProjectPage from "~/components/Projects/Projects.vue";
 import AboutPage from "~/components/About/About.vue";
+import ContactPage from "~/components/Contact/Contact.vue";
 
 export default {
   name: "IndexPage",
@@ -32,6 +36,7 @@ export default {
     FieldPage,
     ProjectPage,
     AboutPage,
+    ContactPage,
   },
 };
 </script>
