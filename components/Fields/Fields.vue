@@ -1,7 +1,5 @@
 <template>
-  <div
-    class="w-[70%] text-center my-10 mx-auto flex flex-col space-y-16 min-h-screen"
-  >
+  <div class="w-[70%] text-center my-32 mx-auto flex flex-col space-y-16">
     <div class="text-6xl font-bold text-dark-700">What I do</div>
 
     <div class="flex lg:flex-row flex-col space-x-10">

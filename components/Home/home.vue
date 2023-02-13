@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-dark-100 p-3 min-h-screen">
+  <div class="p-3 min-h-screen">
     <!-- Navbar -->
     <Navbar />
 

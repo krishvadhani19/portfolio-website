@@ -1,5 +1,7 @@
 <template>
-  <div class="bg-dark-100 min-h-screen p-3">
+  <div
+    class="bg-gradient-to-r from-dark-100 via-dark-200 to-dark-100 min-h-screen p-3"
+  >
     <!-- HomePage -->
     <HomePage />
 
@@ -7,7 +9,7 @@
     <FieldPage />
 
     <!-- Projects -->
-    <Projects />
+    <ProjectPage />
 
     <!-- About -->
     <About />
@@ -15,10 +17,10 @@
 </template>
 
 <script>
-import HomePage from "~/components/Home/home.vue";
+import HomePage from "~/components/Home/Home.vue";
 import FieldPage from "~/components/Fields/Fields.vue";
-import ProjectPage from "~/components/Projects/projects.vue";
-import AboutPage from "~/components/About/about.vue";
+import ProjectPage from "~/components/Projects/Projects.vue";
+import AboutPage from "~/components/About/About.vue";
 
 export default {
   name: "IndexPage",
