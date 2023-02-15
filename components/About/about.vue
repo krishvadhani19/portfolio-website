@@ -41,12 +41,10 @@
 
 <script>
 import LeftAbout from "~/components/About/LeftAbout.vue";
-import RightAbout from "~/components/About/RightAbout.vue";
 
 export default {
   components: {
     LeftAbout,
-    RightAbout,
   },
 };
 </script>

@@ -26,7 +26,7 @@
       </div>
 
       <!-- Project2 -->
-      <div class="bg-primary-pink px-5 py-10 rounded-lg">
+      <div class="border border-primary-pink px-5 py-10 rounded-lg">
         <!-- Title -->
         <div class="text-3xl font-bold text-dark-100">
           Social Media Application

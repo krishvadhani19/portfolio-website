@@ -15,10 +15,33 @@
       </div>
 
       <!-- Social Media -->
-      <div class="flex flex-row space-x-6 justify-center mb-8">
-        <GithubIcon size="30" color="#ffffff" />
-        <LinkedInIcon size="30" color="#ffffff" />
-        <TwitterIcon size="30" color="#ffffff" />
+      <div class="flex flex-row space-x-5 mx-auto mb-10">
+        <!-- Github -->
+        <div>
+          <a href="https://github.com/krishvadhani19" target="_blank">
+            <GithubIcon color="#ffffff" size="30" />
+          </a>
+        </div>
+
+        <!-- Twitter -->
+        <div>
+          <a
+            href="https://twitter.com/KrishVadhani?t=5HkUdBctZJtWdx1VX40IcQ&s=09"
+            target="_blank"
+          >
+            <TwitterIcon color="#ffffff" size="30" />
+          </a>
+        </div>
+
+        <!-- LinkedIn -->
+        <div>
+          <a
+            href="https://www.linkedin.com/in/krish-vadhani-020a19197/"
+            target="_blank"
+          >
+            <LinkedInIcon color="#ffffff" size="30" />
+          </a>
+        </div>
       </div>
 
       <!-- Email -->
