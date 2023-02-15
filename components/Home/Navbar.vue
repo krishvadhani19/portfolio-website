@@ -21,13 +21,27 @@
     <!-- Social Media links -->
     <div class="flex flex-row space-x-5">
       <!-- Github -->
-      <div><GithubIcon color="#ffffff" size="25" /></div>
+      <div>
+        <a href="https://github.com/krishvadhani19" target="_blank">
+          <GithubIcon color="#ffffff" size="25" />
+        </a>
+      </div>
 
       <!-- Twitter -->
-      <div><TwitterIcon color="#ffffff" size="25" /></div>
+      <div>
+        <a
+          href="https://twitter.com/KrishVadhani?t=5HkUdBctZJtWdx1VX40IcQ&s=09"
+        >
+          <TwitterIcon color="#ffffff" size="25" />
+        </a>
+      </div>
 
       <!-- LinkedIn -->
-      <div><LinkedInIcon color="#ffffff" size="25" /></div>
+      <div>
+        <a href="https://www.linkedin.com/in/krish-vadhani-020a19197/">
+          <LinkedInIcon color="#ffffff" size="25" />
+        </a>
+      </div>
     </div>
   </div>
 </template>

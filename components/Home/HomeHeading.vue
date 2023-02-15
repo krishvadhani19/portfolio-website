@@ -2,7 +2,9 @@
   <!-- Main Name -->
   <div class="flex flex-col text-white mx-auto w-[50%] text-center space-y-4">
     <!-- Name -->
-    <div class="text-9xl font-extrabold tracking-wider gradient-text">
+    <div
+      class="text-9xl font-extrabold tracking-widest gradient-text w-[65%] mx-auto"
+    >
       KRISH
     </div>
 
