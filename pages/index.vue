@@ -2,6 +2,9 @@
   <div
     class="bg-gradient-to-r from-dark-100 via-dark-200 to-dark-100 min-h-screen p-3"
   >
+    <!-- Navbar -->
+    <Navbar />
+
     <!-- HomePage -->
     <HomePage />
 
@@ -13,18 +16,15 @@
 
     <!-- About -->
     <AboutPage />
-
-    <!-- Contact -->
-    <ContactPage />
   </div>
 </template>
 
 <script>
-import HomePage from "~/components/Home/Home.vue";
-import TechStack from "~/components/TechStack/TechStack.vue";
-import ProjectPage from "~/components/Projects/Projects.vue";
+import Navbar from "~/components/Navbar.vue";
+import HomePage from "~/components/Home.vue";
+import TechStack from "~/components/TechStack.vue";
+import ProjectPage from "~/components/Projects.vue";
 import AboutPage from "~/components/About/About.vue";
-import ContactPage from "~/components/Contact/Contact.vue";
 
 export default {
   name: "IndexPage",
@@ -32,11 +32,11 @@ export default {
     return {};
   },
   components: {
+    Navbar,
     HomePage,
     TechStack,
     ProjectPage,
     AboutPage,
-    ContactPage,
   },
 };
 </script>
