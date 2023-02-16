@@ -1,5 +1,5 @@
 <template>
-  <div class="text-white text-center w-[70%] mx-auto flex flex-col space-y-10">
+  <div class="text-white text-center w-[70%] mx-auto flex flex-col space-y-20">
     <!-- Title -->
     <div class="text-6xl font-bold text-dark-700">Projects</div>
 

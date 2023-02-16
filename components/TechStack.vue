@@ -1,5 +1,5 @@
 <template>
-  <div class="w-[70%] my-32 mx-auto flex flex-col space-y-16">
+  <div class="w-[70%] my-32 mx-auto flex flex-col space-y-20">
     <div class="text-6xl font-bold text-dark-700 text-center">Tech Stack</div>
 
     <div class="flex flex-col space-y-10 text-white">
@@ -29,7 +29,9 @@
 
       <!-- 3. JavaScript -->
       <div class="flex justify-between">
-        <div class="text-xl font-semibold w-[30%] text-dark-700">JavaScript</div>
+        <div class="text-xl font-semibold w-[30%] text-dark-700">
+          JavaScript
+        </div>
 
         <div class="w-[80%] h-4 bg-dark-400 rounded-lg my-auto">
           <div

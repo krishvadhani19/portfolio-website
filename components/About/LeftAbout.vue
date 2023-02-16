@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col space-y-16 justify-center h-full">
+  <div class="flex flex-col space-y-10 justify-center h-full">
     <!-- image -->
     <img
       src="~/static/Krish.png"
@@ -46,7 +46,7 @@
 
       <!-- Email -->
       <div
-        class="text-2xl text-dark-100 font-bold text-center bg-gradient-to-r from-pink-500 to-purple-500 w-[80%] mx-auto rounded-lg p-3"
+        class="text-2xl text-dark-700 font-bold text-center border border-primary-pink w-[80%] mx-auto rounded-lg p-3"
       >
         krish.vadhani@somaiya.edu
       </div>
