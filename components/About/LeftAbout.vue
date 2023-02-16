@@ -45,11 +45,12 @@
       </div>
 
       <!-- Email -->
-      <div
-        class="text-2xl text-dark-700 font-bold text-center border border-primary-pink w-[80%] mx-auto rounded-lg p-3"
+      <a
+        class="text-2xl text-dark-700 font-bold text-center border border-primary-pink w-[50%] mx-auto rounded-xl p-3 hover:bg-primary-pink ease-in-out duration-300 cursor-pointer"
+        href="mailto:krish.vadhani@somaiya.edu"
       >
-        krish.vadhani@somaiya.edu
-      </div>
+        Email Me
+      </a>
     </div>
   </div>
 </template>
