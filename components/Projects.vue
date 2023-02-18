@@ -1,9 +1,9 @@
 <template>
   <div
-    class="text-white text-center lg:w-[70%] w-[90%] mx-auto flex flex-col space-y-20"
+    class="text-white text-center lg:w-[70%] w-[90%] mx-auto flex flex-col lg:space-y-20 space-y-10"
   >
     <!-- Title -->
-    <div class="text-6xl font-bold text-dark-700">Projects</div>
+    <div class="lg:text-6xl text-5xl font-bold text-dark-700">Projects</div>
 
     <div
       class="grid grid-cols-1 lg:grid-rows-2 lg:grid-flow-col grid-flow-row lg:gap-10 gap-4"
@@ -25,7 +25,9 @@
         </div>
 
         <!-- Description -->
-        <div class="w-[85%] mx-auto text-xl mb-5 text-left text-dark-700">
+        <div
+          class="lg:w-[85%] w-[95%] mx-auto text-xl mb-5 lg:text-left text-justify text-dark-700"
+        >
           <p>
             Developed a robust backend application using NodeJS, Express,
             Mongoose, and MongoDB, enabling users to create posts, comment on
@@ -57,7 +59,9 @@
         </div>
 
         <!-- Description -->
-        <div class="w-[85%] mx-auto text-xl mb-5 text-left text-dark-700">
+        <div
+          class="lg:w-[85%] w-[95%] mx-auto text-xl mb-5 lg:text-left text-justify text-dark-700"
+        >
           Developed a robust MERN application where a user first needs to
           authenticate and later can add tasks, update tasks, delete tasks and
           view the list of pending tasks.
@@ -83,12 +87,14 @@
 
           <!-- Sub Title -->
           <div class="text-pink-500 font-bold text-base mb-6">
-            React Js, Bootstrap, JavScript
+            React Js, Bootstrap, JavaScript
           </div>
         </div>
 
         <!-- Description -->
-        <div class="w-[85%] mx-auto text-xl mb-5 text-left text-dark-700">
+        <div
+          class="lg:w-[85%] w-[95%] mx-auto text-xl mb-5 lg:text-left text-justify text-dark-700"
+        >
           <p>
             Developed an application which fetches top 10 youtube videos upon
             any search using the Youtube API.
@@ -124,7 +130,9 @@
         </div>
 
         <!-- Description -->
-        <div class="w-[85%] mx-auto text-xl mb-5 text-left text-dark-700">
+        <div
+          class="lg:w-[85%] w-[95%] mx-auto text-xl mb-5 lg:text-left text-justify text-dark-700"
+        >
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, sint
           temporibus eius dicta culpa unde reiciendis quis cum dolorum debitis.
           Tenetur magnam perferendis consequuntur quia provident quod cumque, a

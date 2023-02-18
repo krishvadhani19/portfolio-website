@@ -1,6 +1,10 @@
 <template>
-  <div class="lg:w-[70%] w-[90%] my-32 mx-auto flex flex-col space-y-20">
-    <div class="text-6xl font-bold text-dark-700 text-center">Tech Stack</div>
+  <div
+    class="lg:w-[70%] w-[90%] my-32 mx-auto flex flex-col lg:space-y-20 space-y-10"
+  >
+    <div class="lg:text-6xl text-5xl font-bold text-dark-700 text-center">
+      Tech Stack
+    </div>
 
     <div class="flex flex-col space-y-10 text-white">
       <!-- 1. HTML -->
