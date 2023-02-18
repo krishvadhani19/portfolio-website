@@ -1,12 +1,12 @@
 <template>
   <div
-    class="bg-gradient-to-r from-dark-100 via-dark-200 to-dark-100 min-h-screen p-3"
+    class="w-full bg-gradient-to-r from-dark-100 via-dark-200 to-dark-100 min-h-screen p-3"
   >
     <!-- Navbar -->
     <Navbar />
 
     <!-- HomePage -->
-    <HomePage />
+    <!-- <HomePage /> -->
 
     <!-- Projects -->
     <ProjectPage />

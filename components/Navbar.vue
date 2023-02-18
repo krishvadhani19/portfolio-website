@@ -1,21 +1,25 @@
 <template>
   <div class="flex flex-row justify-around text-white text-xl">
     <!-- Navigation -->
-    <div class="flex flex-row space-x-10 my-auto">
+    <div class="flex flex-row space-x-4 lg:space-x-10 my-auto">
       <!-- Home -->
-      <div class="text-2xl font-semibold">Home</div>
+      <div class="lg:text-2xl text-xl font-semibold cursor-pointer">Home</div>
 
       <!-- Projects -->
-      <div class="text-2xl font-semibold">Projects</div>
+      <div class="lg:text-2xl text-xl font-semibold cursor-pointer">
+        Projects
+      </div>
 
       <!-- Tech Stack -->
-      <div class="text-2xl font-semibold">Tech Stack</div>
+      <div class="lg:text-2xl text-xl font-semibold cursor-pointer">
+        Tech Stack
+      </div>
 
       <!-- Contact -->
-      <div class="text-2xl font-semibold">Contact</div>
+      <div class="lg:text-2xl text-xl font-semibold cursor-pointer">About</div>
     </div>
 
-    <div class="flex flex-row space-x-10">
+    <div class="lg:flex flex-row space-x-10 hidden">
       <!-- Social Media links -->
       <div class="flex flex-row space-x-5 my-auto">
         <!-- Github -->
@@ -49,7 +53,7 @@
       <!-- Download CV -->
       <a
         class="text-xl text-dark-700 font-bold text-center border border-primary-pink rounded-xl p-3 hover:bg-primary-pink ease-in-out duration-300 cursor-pointer"
-        href="assets/download.pdf"
+        href="assets/resume.pdf"
         download
         >Download CV</a
       >

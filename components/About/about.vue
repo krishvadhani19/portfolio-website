@@ -4,7 +4,7 @@
     <div class="text-6xl font-bold text-dark-700 text-center">About</div>
 
     <!--  -->
-    <div class="flex flex-row">
+    <div class="flex lg:flex-row flex-col">
       <!-- Left About -->
       <div class="w-[40%]">
         <LeftAbout />
