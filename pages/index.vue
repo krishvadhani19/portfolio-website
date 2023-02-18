@@ -6,7 +6,9 @@
     <Navbar />
 
     <!-- HomePage -->
-    <!-- <HomePage /> -->
+    <div class="mt-48 mb-48">
+      <HomePage />
+    </div>
 
     <!-- Projects -->
     <ProjectPage />

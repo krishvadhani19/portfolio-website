@@ -6,7 +6,7 @@
     <div class="lg:text-6xl text-5xl font-bold text-dark-700">Projects</div>
 
     <div
-      class="grid grid-cols-1 lg:grid-rows-2 lg:grid-flow-col grid-flow-row lg:gap-10 gap-4"
+      class="grid lg:grid-rows-2 lg:grid-flow-col grid-flow-row lg:gap-10 gap-4"
     >
       <!-- Project1 -->
       <div
